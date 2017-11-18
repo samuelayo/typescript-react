@@ -949,8 +949,11 @@ module.exports = __webpack_require__(15);
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(4);
 var ReactDOM = __webpack_require__(19);
+var user = { name: 23, age: 23, address: 'sasas', dob: new Date() };
 ReactDOM.render(React.createElement("div", null,
-    React.createElement("h1", null, "Hello There")), document.getElementById("root"));
+    React.createElement("h1", null,
+        "Hello There ",
+        user.name)), document.getElementById("root"));
 
 
 /***/ }),
