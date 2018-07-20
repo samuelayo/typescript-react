@@ -29,6 +29,12 @@ npm install -g typescript
 npm install
 ```
 
+- Instruct npm to use the globally installed Typescript
+
+```
+npm link typescript
+```
+
 - Compile the app
 
 ```
